@@ -20,19 +20,14 @@
 
 body {
   width: 1440px;
+  margin: 0 auto;
 }
 
 header {
+  height: 133px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 133px;
-}
-
-.header-right-menu {
-  display: flex;
-  flex-direction: row;
-  margin-right: 61px;
 }
 
 .logo {
@@ -41,14 +36,20 @@ header {
   margin: 52.54px 0 0 63.58px;
 }
 
+.header-right-menu {
+  margin-right: 61px;
+  display: flex;
+  flex-direction: row;
+}
+
 .menu-item {
+  padding: 59px 0 40px 0;
+  margin-left: 34px;
   font-family: New York Small;
   font-size: 20px;
   line-height: 170%;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  padding: 59px 0 40px 0;
-  margin-left: 34px;
 }
 
 .content {
